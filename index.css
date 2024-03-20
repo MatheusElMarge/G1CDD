@@ -1,0 +1,186 @@
+/* Style principal, alteração na Head e Body */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Imagens de Logos e Banner */
+
+.logo {
+    background-color: #c2170a;
+    color: #f4f4f4;
+    padding: 10px 0;
+    display: flex;
+}
+
+.logo img {
+    margin: 0 auto; /* CENTRALIZA A IMAGEM DA LOGO +A */
+    max-height: 50px; /* Altura ajustada */
+    display: flex;
+    justify-content: center;
+}
+
+.logo .menu-icon {
+    margin-right: auto;
+}
+
+.logo .div-search {
+    margin-left: auto;
+}
+
+.imagem-container {
+    position: relative; /* Definindo o posicionamento relativo */
+    text-align: center;
+}
+
+.imagem-container img {
+    display: block;
+    margin: 0 auto;
+    width: 1227px;
+    height: 504px;
+    border-radius: 15px;
+}
+
+.imagem-container .overlay {
+    display: flex;
+    flex-direction: row; /* Organiza os elementos em uma linha horizontal */
+    position: absolute; /* Posicionamento absoluto */
+    bottom: 0; /* Alinhando na parte inferior */
+    left: 0; /* Alinhando na parte esquerda */
+    width: 100%; /* Ocupa toda a largura */
+    padding: 20px; /* Espaçamento interno */
+    color: white;
+}
+
+.imagem-container .overlay h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.imagem-container .overlay p {
+    font-size: 16px;
+}
+
+/* === Lista HEADER === */
+.listagem {
+    background-color: #f3f2f2;
+    padding: 10px 0;
+    display: flex;
+    align-items: start;
+    font-weight: bold;
+}
+
+.lista1 {
+    color: #387BB7;
+}
+
+.lista2 {
+    color: #A8223F;
+}
+
+.lista3 {
+    color: #17A174;
+}
+
+.lista4 {
+    color: #EB7040;
+}
+
+nav ul {
+    padding-left: 5%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.search-input {
+    background-color: #a7140a;
+    color: #fff;
+    margin: 0px 18px 0px 0px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.search-input::placeholder {
+    color: #fff;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.search-input button:hover {
+    background-color: #0056b3;
+}
+/* ===================== */
+
+/* Por Tags */
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Construindo a página estática com os artigos principais */
+
+.container-artigos-principal {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.coluna-principal {
+    flex: 2;
+    margin-right: 15px;
+}
+
+.coluna-artigos {
+    flex: 1;
+
+}
+
+.artigolado-margembaixo {
+    margin-bottom: 20px;
+}
+
+.coluna-principal, .artigolado {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
